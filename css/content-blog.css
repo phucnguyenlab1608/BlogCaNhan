@@ -1,0 +1,154 @@
+.container .row .content-blog > .row article.post div .post-header p {
+  color: #565050;
+  font-size: 1.6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 0;
+  -webkit-box-orient: inherit;
+  display: -webkit-box;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+  font-family: "Lora", serif;
+}
+/* .container .row .content-blog > .row article.post .next-blog {
+    margin-top:8rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:5rem;
+    border: 1px solid #ccc;
+} */
+/* .container .row .content-blog > .row article.post .next-blog a */
+/* .container .row .content-blog > .row article.post .next-blog a {
+    font-size: 2.5rem;
+    color: #be7b68;
+    width: 50%;
+} */
+/* .container .row .content-blog > .row article.post .next-blog .row a{
+    display: block;
+   
+    display: block;
+    height:5rem;
+    line-height:5rem;
+}
+.container .row .content-blog > .row article.post .next-blog .row a i{
+    color: #be7b68;
+    font-size: 2.5rem;
+} */
+/* .post-related{
+    margin-top:8rem;
+    width: 100%;
+}
+.post-related  h2.title-related-box{
+    text-align:center;
+    font-size: 2.5rem;
+}
+.related-slide{
+    display: flex;
+    justify-content: space-between;
+}
+.related-slide > div {
+    width: 39rem;
+}
+.related-slide > div > a.img-related-box {
+    width: 100%;
+    display: block;
+}
+.related-slide > div > a.img-related-box img{
+    width: 100%;
+}
+.related-slide > div > .content-related{
+    margin-top: 2.5rem;
+}
+.related-slide > div > .content-related a{
+    color: #be7b68;
+    text-align: center;
+    display:block;
+    margin-top: 2rem;
+} */
+/* co the ban thich */
+.post-related {
+  width: 100%;
+}
+.post-related > h2 {
+  text-align: center;
+  margin: 4rem 0 5rem 0;
+}
+.post-related > .row > .item {
+  width: 39rem;
+  height: 100%;
+}
+.post-related > .row > .item a {
+  width: 100%;
+
+  /* height: 27rem; */
+}
+.post-related > .row > .item a.img-related {
+  width: 100%;
+  height: 25rem;
+  display: block;
+}
+.post-related > .row > .item a img {
+  width: 100%;
+  height: 100%;
+}
+.post-related > .row > .item .content-related {
+  margin-top: 2rem;
+}
+.post-related > .row > .item .content-related a h2 {
+  color: #141514;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  line-height: 2.5rem;
+  /* font-size: 1.4rem; */
+  margin-bottom: 1.5rem;
+}
+.post-related > .row > .item .content-related a.date-time span {
+  font-family: "Dancing Script", cursive;
+  color: #be7b68;
+}
+.post-related > .row > .item .content-related p {
+  margin-top: 1.5rem;
+  color: #171717;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  line-height: 2.5rem;
+  /* font-size: 1.4rem; */
+  margin-bottom: 1.5rem;
+}
+.comments {
+  margin-top: 5rem;
+  width: 100%;
+}
+.comments > .content-comment > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.comments > .content-comment div form {
+  display: block;
+  width: 100%;
+  margin-top: 5rem;
+}
+.comments > .content-comment div form input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #be7b68;
+  padding-left: 1.5rem;
+  height: 4.5rem;
+  outline: none;
+}
+.comments > .content-comment div div.button-up {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}

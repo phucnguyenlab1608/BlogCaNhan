@@ -1,0 +1,150 @@
+/* --------------background header------------- */
+.background-nav {
+  position: relative;
+  height: 8.6rem;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f5f5f6;
+}
+.background-nav:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 39%;
+  height: 200%;
+  background-image: linear-gradient(#c99484, #efe1dd);
+  top: 0;
+  z-index: 0;
+}
+/* ------------------post--------------------- */
+section {
+  margin-top: 8rem;
+}
+.container .row .content-blog {
+  width: 72%;
+  /* position: relative; */
+}
+/* .container .row .content-blog > .row article.post div .date-box{
+    position: absolute;
+    background-color: #be7b68;
+    left: 2rem;
+    width: 7rem;
+    padding:0 2rem;
+    height: 7rem;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.container .row .content-blog > .row article.post div .date-box span {
+    display: block;
+} */
+.container .row .content-blog > .row article.post {
+  margin-top: 6rem;
+  width: 40rem;
+}
+.container .row .content-blog > .row article.post:first-child {
+  margin-top: 0;
+  width: 100%;
+}
+.container .row .content-blog > .row article.post:first-child div .post-image{
+    height:45rem;
+  }
+.container .row .content-blog > .row article.post div .post-header {
+  margin-top: 3rem;
+}
+.container .row .content-blog > .row article.post div .post-header a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #be7b68;
+}
+.container .row .content-blog > .row article.post div .post-header a.category-name{
+  font-family: 'Dancing Script', cursive;
+} 
+.container .row .content-blog > .row article.post div .post-header a > h2 {
+  color: #141514;
+  margin: 3rem 0;
+}
+.container .row .content-blog > .row article.post div .post-header a > h2:hover{
+  opacity: 0.5;
+}
+.container .row .content-blog > .row article.post div .post-header p {
+  color: #171717;
+  font-size: 1.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  margin-bottom: 4rem;
+  line-height: 2rem;
+}
+.container .row > .content-blog .row .post div .post-image{
+    height:30rem;
+}
+.container .row > .content-blog .row .post div .post-image a img{
+    width: 100%;
+    height: 100%;
+}
+.container .row > .content-blog .row .post div .post-header a.more-link {
+  font-size: 1.3rem;
+  color: #171717;
+}
+.container .row .content-blog .row .post div .post-header a.more-link:hover {
+  color: #be7b68;
+}
+.container .row > .content-blog .row .bottom-blog {
+  margin-top: 4rem;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+   padding:0 1rem ;
+  height: 5rem;
+  line-height: 5rem;
+}
+.container .row > .content-blog > .row .bottom-blog ul.group-share li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.container .row > .content-blog > .row .bottom-blog ul.group-share li a i {
+  display: inline-block;
+  margin-right: 1.5rem;
+  color: #be7b68;
+  font-size: 1.4rem;
+}
+.container .row > .content-blog > .row .bottom-blog a {
+  color: #171717;
+}
+.container .row > .content-blog > .row nav {
+  width: 100%;
+  margin-top: 5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  height: 5rem;
+  line-height:5rem;
+}
+.container .row > .content-blog > .row nav ul.pagination {
+  font-size: 0;
+}
+.container .row > .content-blog > .row nav ul.pagination li {
+  display: inline-block;
+}
+
+.container .row > .content-blog > .row nav ul.pagination li a {
+  border: 1px solid #be7b68;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color:#be7b68;
+}
+.container .row > .content-blog > .row nav ul.pagination li:hover a {
+    color: #fff;
+    background-color: #be7b68;
+}
+/* ------------- sidebar -------------- */
+.container .row > .sidebar {
+  width: 26%;
+  background-color: red;
+  height: 300px;
+}
